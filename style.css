@@ -67,7 +67,7 @@ header nav {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 16vw;
+  font-size: 12vw;
   color: #fff;
 }
 header nav ul {
@@ -148,11 +148,11 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
+@media all and (min-width: 490px) {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 25px;
   }
 
   header h1 {
@@ -174,7 +174,7 @@ footer p {
     justify-content: space-around;
   }
   form div {
-    flex-direction: column;
+    flex-direction: row;
   }
   form input {
     margin-left: 0px;
